@@ -1,0 +1,223 @@
+{
+  "refNo": "string",
+  "correlationId": "string",
+  "subCorrelationId": "string",
+  "insuredPersonInfo": {
+    "employeeId": "string",
+    "name": "string",
+    "dob": "string",
+    "genderId": "string",
+    "raceId": "string",
+    "nationalityId": "string",
+    "dateOfDeath": "string",
+    "ageOfDeath": "string",
+    "deathSource": "string",
+    "address": {
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "addressLine3": "string",
+      "state": "string",
+      "city": "string",
+      "country": "2126150",
+      "postcode": "string",
+      "poBox": "string",
+      "lockedBag": "string",
+      "wdt": "string"
+    },
+    "telephoneNo": "string",
+    "mobileNo": "string",
+    "emailAddress": "string",
+    "recipientUniqueType": "string",
+    "recipientUniqueNo": "string",
+    "identificationInfoList": [
+      {
+        "identificationTypeId": "string",
+        "identificationNo": "string"
+      }
+    ]
+  },
+  "bankInfo": {
+    "paymentMethodType": "string",
+    "bankAccount": "string",
+    "bankName": "string",
+    "bankAccNo": "string",
+    "swiftCode": "string",
+    "otherCodes": "string",
+    "otherCodesValue": "string",
+    "overseaBankName": "string",
+    "overseaBankAddressLine1": "string",
+    "overseaBankAddressLine2": "string",
+    "overseaBankAddressLine3": "string",
+    "overseaState": "string",
+    "overseaCity": "string",
+    "overseaBankCountry": "string",
+    "currency": "string",
+    "isCitizen": "string",
+    "citizenCountry": "string",
+    "reasonNoBankAcct": "string",
+    "passportNo": "string",
+    "passportExpiryDate": "string",
+    "previousPassportNo": "string",
+    "ssnNo": "string",
+    "noBankAccountJustification": "string"
+  },
+  "caseInfo": {
+    "schemeRefNo": "string",
+    "schemeType": "string",
+    "caseType": "string",
+    "caseCategory": "string",
+    "noticeDate": "string",
+    "noticeType": "string",
+    "form34ReceivedDate": "string",
+    "accrualDate": "string",
+    "socsoOffice": "string",
+    "areaCode": "string",
+    "benefitRefNo": "string",
+    "remarks": "string",
+    "isSec96": true,
+    "sec96Option": "string",
+    "sec96OptionReceivedDate": "string",
+    "schemeRevisionNo": "string"
+  },
+  "relatedCaseList": [
+    {
+      "schemeRefNo": "string",
+      "schemeType": "string",
+      "caseType": "string",
+      "noticeDate": "string",
+      "noticeType": "string",
+      "benefitRefNo": "string",
+      "rate": "string",
+      "identificationInfoList": [
+        {
+          "identificationTypeId": "string",
+          "identificationNo": "string"
+        }
+      ]
+    }
+  ],
+  "employerInfo": {
+    "employerId": 0,
+    "employerCode": "string",
+    "employerName": "string",
+    "address": {
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "addressLine3": "string",
+      "state": "string",
+      "city": "string",
+      "country": "2126150",
+      "postcode": "string",
+      "poBox": "string",
+      "lockedBag": "string",
+      "wdt": "string"
+    },
+    "telephoneNo": "string",
+    "mobileNo": "string",
+    "faxNo": "string",
+    "emailAddress": "string",
+    "businessEntityId": "string",
+    "subBusinessEntityId": "string",
+    "subBusinessEntityListId": "string",
+    "industryCodeId": "string",
+    "subIndustryCodeListId": "string",
+    "serviceTypeId": "string",
+    "employmentStartDate": "string",
+    "employmentEndDate": "string",
+    "wagesInfoList": [
+      {
+        "year": 0,
+        "month": "string",
+        "wage": "string",
+        "contributionPaid": "string",
+        "contributionPayable": "string",
+        "contributionSurplusDeficit": "string"
+      }
+    ]
+  },
+  "schemeMgmtDecision": {
+    "occupationalDisease": true,
+    "employmentInjury": true,
+    "recommendedBy": "string",
+    "recommendedDate": "string",
+    "approvedBy": "string",
+    "approvedDate": "string"
+  },
+  "occupationalDiseaseInfo": {
+    "occupationalDiseaseDate": "string",
+    "occupationalDiseaseDesc": "string",
+    "accidentCode": "string",
+    "causativeAgent": "string"
+  },
+  "specialMedicalBoardInfoList": [
+    {
+      "jdTypeId": "string",
+      "jdSessionDate": "string",
+      "result": "string",
+      "remarks": "string"
+    }
+  ],
+  "assessmentList": [
+    {
+      "assessmentType": "string",
+      "accrualDate": "string",
+      "assessment": "string",
+      "assessmentEndDate": "string"
+    }
+  ],
+  "wagesInfo": {
+    "minimumWages": true,
+    "similarWorker": true,
+    "similarWorkerDetail": {
+      "employeeId": 0,
+      "name": "string",
+      "identificationInfoList": [
+        {
+          "identificationType": "string",
+          "identificationNo": "string"
+        }
+      ]
+    },
+    "employerInfoList": [
+      {
+        "employerId": 0,
+        "employerCode": "string",
+        "employerName": "string",
+        "address": {
+          "addressLine1": "string",
+          "addressLine2": "string",
+          "addressLine3": "string",
+          "state": "string",
+          "city": "string",
+          "country": "2126150",
+          "postcode": "string",
+          "poBox": "string",
+          "lockedBag": "string",
+          "wdt": "string"
+        },
+        "telephoneNo": "string",
+        "mobileNo": "string",
+        "faxNo": "string",
+        "emailAddress": "string",
+        "businessEntityId": "string",
+        "subBusinessEntityId": "string",
+        "subBusinessEntityListId": "string",
+        "industryCodeId": "string",
+        "subIndustryCodeListId": "string",
+        "serviceTypeId": "string",
+        "employmentStartDate": "string",
+        "employmentEndDate": "string",
+        "wagesInfoList": [
+          {
+            "year": 0,
+            "month": "string",
+            "wage": "string",
+            "contributionPaid": "string",
+            "contributionPayable": "string",
+            "contributionSurplusDeficit": "string"
+          }
+        ]
+      }
+    ]
+  }
+}
